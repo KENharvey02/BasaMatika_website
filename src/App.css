@@ -1,0 +1,258 @@
+/* ===== DESKTOP (your original design) ===== */
+body {
+  margin: 0;
+}
+
+.home-container {
+  min-height: 100vh;
+  background: #fffcf5;
+  font-family: "Poppins", sans-serif;
+  padding: 0 7%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.logo {
+  height: 80px;
+}
+
+.download-btn {
+  background: #ffe066;
+  color: #222;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1 rem;
+  padding: 12px 42px;
+  border-radius: 999px;
+  text-decoration: none;
+}
+
+.download-btn:hover {
+    background-color: #ffd83a;
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 100px;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.title {
+  font-size: 6rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  margin: 0;
+  background: linear-gradient(90deg, #ff3b30, #ff9f4a);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+
+  border-right: .05em solid transparent; 
+
+    /* Animate typing and cursor blinking independently */
+  animation: 
+    typing 3.5s steps(40, end) forwards,
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing animation */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor animation */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(255, 160, 50); }
+}
+
+
+
+.hero-sub {
+  font-size: 1.8rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #222;
+  max-width: 700px;
+}
+
+.hero-image {
+  flex: 1;
+  max-width: 50%;
+}
+
+.download-btn2 {
+  background: #ffe066;
+  color: #222;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.3rem;
+  padding: 14px 54px;
+  border-radius: 2px;
+  text-decoration: none;
+  margin-top: 50px;
+}
+
+.download-btn2:hover {
+    background-color:#ffd83a;
+    
+}
+
+.features {
+  font-size: 4rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  margin: 0;
+  background: linear-gradient(180deg, #004aad, #cb6ce6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.features-container {
+  min-height: 100vh;
+  background: #fffcf5;
+  font-family: "Poppins", sans-serif;
+  padding: 0 7%;
+}
+
+.vr, .module, .games{
+  flex: 1;
+  max-width: 50%;
+}
+
+.voice-title, .game-title, .module-title{
+  font-size: x-large;
+  line-height: 1px;
+}
+
+.vr-games{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+/* ===== Footer ===== */
+.footer {
+  background: #fcf2cb;
+  font-family: "Poppins", sans-serif;
+  color: #222;
+  padding: clamp(30px, 5vw, 60px) 7% 20px;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.footer-brand {
+  max-width: 320px;
+}
+
+.footer-logo {
+  height: 50px;
+}
+
+.footer-brand p {
+  margin-top: 12px;
+  line-height: 1.6;
+}
+
+.footer-links,
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer h6 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0 0 8px;
+}
+
+.footer a {
+  color: #222;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #ff3b30;
+}
+
+.footer-copy {
+  text-align: center;
+  font-size: 0.9rem;
+  margin: 40px 0 0;
+  padding-top: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+
+
+
+
+
+
+/* ===== TABLET AND PHONE (same look, resized and stacked) ===== */
+@media (max-width: 1024px) {
+  .navbar {
+    padding-top: 24px;
+  }
+
+  .logo {
+    height: 60px;
+  }
+
+  .download-btn {
+    font-size: 1rem;
+    padding: 10px 28px;
+  }
+
+  .hero-section {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+    gap: 30px;
+  }
+
+  .title {
+    font-size: 3.5rem;
+  }
+
+  .hero-sub {
+    font-size: 1.2rem;
+    margin: 0 auto;
+  }
+
+  .hero-image {
+    max-width: 100%;
+  }
+
+  .download-btn2 {
+    font-size: 1rem;
+    padding: 10px 28px;
+  }
+
+  .features {
+    font-size: 2.5rem;
+  }
+}
