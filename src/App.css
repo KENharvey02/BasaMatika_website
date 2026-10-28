@@ -1,4 +1,4 @@
-/* ===== DESKTOP (your original design) ===== */
+/* Desktop*/
 body {
   margin: 0;
 }
@@ -111,11 +111,19 @@ body {
     
 }
 
-.features {
+.version-button{
+  display: flex;
+  margin-top: 60px;
+  justify-content: center;   
+}
+
+
+.feature-text {
   font-size: 4rem;
   font-family: "Poppins", sans-serif;
   font-weight: 800;
   margin: 0;
+  margin-bottom: 60px;
   background: linear-gradient(180deg, #004aad, #cb6ce6);
   -webkit-background-clip: text;
   background-clip: text;
@@ -129,14 +137,30 @@ body {
   padding: 0 7%;
 }
 
-.vr, .module, .games{
+.vr-container, .games-container, .module-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   flex: 1;
-  max-width: 50%;
+}
+
+.vr, .module, .games{
+  width: 100%;
+  max-width: 400px;
+  height: auto;
 }
 
 .voice-title, .game-title, .module-title{
   font-size: x-large;
-  line-height: 1px;
+  margin: 24px 0 12px;
+  text-align: center;
+}
+
+.vr-container p,
+.games-container p,
+.module-container p {
+  margin: 0;
 }
 
 .vr-games{
@@ -146,11 +170,26 @@ body {
   justify-content: space-between;
 }
 
+.dl{
+  text-align: center;
+  color: #5c5c5c;
+  margin: 0;
+  font-size: 16px;
+}
+
+.voice-title, .game-title, .module-title{
+  text-align: center;
+}
+
+.dl{
+  margin-bottom: 40px;
+}
+
 
 
 /* ===== Footer ===== */
 .footer {
-  background: #fcf2cb;
+  background: #fff6d3;
   font-family: "Poppins", sans-serif;
   color: #222;
   padding: clamp(30px, 5vw, 60px) 7% 20px;
@@ -212,7 +251,7 @@ body {
 
 
 
-/* ===== TABLET AND PHONE (same look, resized and stacked) ===== */
+/* For phone at tablet */
 @media (max-width: 1024px) {
   .navbar {
     padding-top: 24px;
@@ -255,4 +294,14 @@ body {
   .features {
     font-size: 2.5rem;
   }
+
+.vr-games {
+  flex-direction: column;
+  gap: 40px;
+}
+
+.dl{
+  margin-bottom: 80px;
+}
+
 }

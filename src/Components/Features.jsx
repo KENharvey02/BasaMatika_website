@@ -3,7 +3,7 @@ import module from "../assets/module.png";
 const Features = () => {
   return (
     <section className="features-container">
-      <h1 className="features">Features</h1>
+      <h1 className="feature-text">Features</h1>
 
       <div className="vr-games">
 
@@ -20,19 +20,20 @@ const Features = () => {
         <p>Learn and apply through simple games.</p>
         </div>
 
-      </div>
-
-
-      <div className="module-container">
+        <div className="module-container">
         <img src = {module} alt="modules" className="module"/>
         <h5 className="module-title">Modules</h5>
         <p>Lessons for students in categories.</p>
+
       </div>
 
-      <div>
-        <a href="#download" className="download-btn2">BasaMatika V1.0</a>
-        <p>Download now!</p>
       </div>
+
+      <div className="version-button">
+        <a href="#download" className="download-btn2">BasaMatika V1.0</a>  
+      </div>
+
+      <p className="dl">Download now</p>
 
     </section>
   )

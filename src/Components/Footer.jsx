@@ -19,7 +19,6 @@ const Footer = () => {
         <div className="footer-contact">
           <h6>Contact</h6>
           <a href="mailto:youremail@example.com">youremail@example.com</a>
-          <a href="https://facebook.com" target="_blank" rel="noreferrer">Facebook</a>
         </div>
       </div>
 
