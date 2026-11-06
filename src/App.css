@@ -79,6 +79,10 @@ body {
 }
 
 
+html {
+  scroll-behavior: smooth;
+}
+
 
 .hero-sub {
   font-size: 1.8rem;

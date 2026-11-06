@@ -18,7 +18,17 @@ const Footer = () => {
 
         <div className="footer-contact">
           <h6>Contact</h6>
-          <a href="mailto:youremail@example.com">youremail@example.com</a>
+          {/* 
+            This custom URL forces the browser to open Gmail directly 
+            and start a new draft addressed to your team.
+          */}
+          <a 
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=basamakita.officail@gmail.com" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            basamakita.officail@gmail.com
+          </a>
         </div>
       </div>
 
