@@ -23,7 +23,7 @@ const Footer = () => {
             and start a new draft addressed to your team.
           */}
           <a 
-            href="https://mail.google.com/mail/?view=cm&fs=1&to=basamakita.officail@gmail.com" 
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=basamakita.official@gmail.com" 
             target="_blank" 
             rel="noopener noreferrer"
           >
