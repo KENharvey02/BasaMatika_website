@@ -1,4 +1,6 @@
 import module from "../assets/module.png";
+import vrImg from "../assets/vr.png";
+import gameImg from "../assets/game.png";
 
 const Features = () => {
   return (
@@ -8,13 +10,13 @@ const Features = () => {
 
       <div className="vr-games">
         <div className="vr-container">
-          <img src={module} alt="voice recognition" className="vr"/>
+          <img src={vrImg} alt="voice recognition" className="vr"/>
           <h5 className="voice-title">Voice Recognition</h5>
           <p>Enhance student basic reading in Filipino.</p>
         </div>
 
         <div className="games-container">
-          <img src={module} alt="drag-and-drop" className="games"/>
+          <img src={gameImg} alt="drag-and-drop" className="games"/>
           <h5 className="game-title">Drag-and-Drop Games</h5>
           <p>Learn and apply through simple games.</p>
         </div>
@@ -29,7 +31,7 @@ const Features = () => {
       {/* The download target for the Home and Footer links */}
       <div className="version-button" id="download">
         <a 
-          href="https://github.com/haryetbisa/CapstoneProject2/releases/download/v1/BasaMatika.zip" 
+          href="https://github.com/haryetbisa/CapstoneProject2/releases/download/v1/BasaMatika.exe" 
           target="_blank" 
           rel="noopener noreferrer" 
           className="download-btn2"

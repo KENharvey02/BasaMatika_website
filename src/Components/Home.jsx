@@ -1,5 +1,5 @@
 import logo from "../assets/logo.png";
-import module from "../assets/module.png";
+import dashboard from "../assets/dashboard.png";
 
 const Home = () => {
   return (
@@ -17,7 +17,7 @@ const Home = () => {
           <h1 className="title">BasaMatika</h1>
           <p className="hero-sub">Practice students basic Filipino reading through voice recognition and basic counting through simple games.</p>
         </div>
-         <img src={module} alt="BasaMatika app preview" className="hero-image" />
+         <img src={dashboard} alt="BasaMatika app preview" className="hero-image" />
       </div>
     </section>
   );
