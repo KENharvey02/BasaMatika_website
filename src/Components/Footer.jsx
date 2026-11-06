@@ -27,7 +27,7 @@ const Footer = () => {
             target="_blank" 
             rel="noopener noreferrer"
           >
-            basamakita.officail@gmail.com
+            basamakita.official@gmail.com
           </a>
         </div>
       </div>
