@@ -31,7 +31,7 @@ const Features = () => {
       {/* The download target for the Home and Footer links */}
       <div className="version-button" id="download">
         <a 
-          href="https://github.com/haryetbisa/CapstoneProject2/releases/download/v1/BasaMatika.exe" 
+          href="https://github.com/haryetbisa/CapstoneProject2/releases/download/v1/BasaMatika.zip" 
           target="_blank" 
           rel="noopener noreferrer" 
           className="download-btn2"
